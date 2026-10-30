@@ -1,0 +1,126 @@
+{
+  "policy": "Paper-first. Displayed results are reported values, not a live leaderboard. Local benchmark and output files support auditing, not silent replacement of paper values.",
+  "publication": {
+    "venue": "WACV",
+    "year": 2027,
+    "status": "Accepted",
+    "source": "Author confirmation in chat",
+    "paper_url": null,
+    "project_url": null,
+    "repository_url": null,
+    "model_url": null
+  },
+  "sources": [
+    {
+      "id": "paper",
+      "file": "paper.pdf",
+      "title": "SUREON: A Benchmark and Vision-Language Model for Surgical Reasoning",
+      "version": "Current author-supplied paper.pdf, 12 PDF pages, updated 2026-10-28",
+      "sha256": "08ff50f67a3215c885cb23620339cf5b59c16f65fbc88a5baa7a5b080d16de54"
+    },
+    {
+      "id": "benchmark",
+      "file": "curated_benchmark_Aug27.jsonl",
+      "records": 340,
+      "unique_clip_ids": 335,
+      "source_videos": 165,
+      "join_key": [
+        "id",
+        "qa_type"
+      ]
+    },
+    {
+      "id": "metadata",
+      "file": "surglavi_beta.db",
+      "table": "videos",
+      "fields": [
+        "name",
+        "specialty",
+        "subject",
+        "procedure_type",
+        "url"
+      ]
+    },
+    {
+      "id": "outputs",
+      "file": "integrated_evaluation/outputs",
+      "detail": "47 Aug27 qualitative CSVs, each covering 299 non-summarization questions; exact local paths retained outside the public site in docs/run-audit.json"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "76,061 training QA pairs, 168 procedure types, 10 specialties; 340 benchmark questions, 69 procedure types, 8 specialties; 335 benchmark clips and 165 source videos",
+      "source": "paper",
+      "locator": "Section 3; Table 2; PDF p.4"
+    },
+    {
+      "claim": "Author names, affiliation numbering, institutional names and countries",
+      "source": "paper",
+      "locator": "PDF p.1"
+    },
+    {
+      "claim": "Four-stage construction pipeline; six surgeon reviewers; public perception supervision and Qwen3-VL-8B-Instruct backbone",
+      "source": "paper",
+      "locator": "Section 3.1–3.2; Figure 3; PDF pp.4–7"
+    },
+    {
+      "claim": "All overall, video/blind, per-category and reported multimodal-gain model values; summarization separate from pooled accuracy on 299 items",
+      "source": "paper",
+      "locator": "Table 3; PDF p.7"
+    },
+    {
+      "claim": "Human 64.9; Gemini 52.2; SUREON-VLM 48.2; GPT-5.1 46.8; SUREON-only 44.1; Public-only 20.7",
+      "source": "paper",
+      "locator": "Table 3; PDF p.7"
+    },
+    {
+      "claim": "Construction gains 8.7 → 16.8 → 29.1 points; 176.6K → 76K training samples",
+      "source": "paper",
+      "locator": "Table 4; PDF p.8"
+    },
+    {
+      "claim": "Public surgical perception results and input conditions",
+      "source": "paper",
+      "locator": "Table 5(a,c); PDF p.8"
+    },
+    {
+      "claim": "Differences among strongest evaluated models are not statistically significant",
+      "source": "paper",
+      "locator": "Section 4; PDF p.7"
+    },
+    {
+      "claim": "Training category distribution and summarization exclusion from blind filtering retained from the previous full paper; benchmark category distribution retained from released data",
+      "source": "previous full paper + benchmark",
+      "locator": "Previous supplementary Table 11; released 340-question benchmark",
+      "note": "Current 12-page PDF omits supplementary tables; retained category totals agree with current Table 2."
+    },
+    {
+      "claim": "Annotation license and release URLs retained from repository release metadata",
+      "source": "repository",
+      "locator": "README.md"
+    }
+  ],
+  "discrepancies": [
+    {
+      "issue": "Current PDF supplies symmetric ±95% CI margins rather than exact bootstrap endpoints.",
+      "handling": "Data retain the reported margins; chart whiskers are derived from the reported accuracy ± margin. Older exact endpoints are not reused."
+    },
+    {
+      "issue": "Reported gains can differ by 0.1 points from subtraction of rounded displayed accuracies.",
+      "handling": "Use Table 3 gain rows for both overall and per-category values, without recomputing from rounded accuracies."
+    },
+    {
+      "issue": "The updated paper references supplementary material not included in its 12 pages.",
+      "handling": "Retain released-data distribution counts and earlier supplementary pipeline details with explicit provenance; remove obsolete current-paper table and page references."
+    }
+  ],
+  "media": {
+    "status": "Local review assets only; public release requires source-specific rights check",
+    "processing": "Three clips per question type (30 total); exact source intervals, no lecture audio, original aspect ratios preserved. Provenance: docs/gallery-provenance.json.",
+    "example_explanations": "Reference answers only; no generated clinical explanations"
+  },
+  "limitations": {
+    "browser_testing": "JavaScript and data checks are recorded in the editing session; no browser visual verification has been performed.",
+    "supplementary_material": "Current PDF has 12 pages and omits supplementary tables; detailed distributions retain prior release provenance."
+  }
+}

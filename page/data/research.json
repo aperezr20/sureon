@@ -1,0 +1,3887 @@
+{
+  "categories": [
+    {
+      "key": "object_existence",
+      "label": "Entity existence",
+      "short": "EE",
+      "train": 7816,
+      "benchmark": 37,
+      "format": "mcq"
+    },
+    {
+      "key": "object_attribute",
+      "label": "Entity attribute",
+      "short": "EA",
+      "train": 5978,
+      "benchmark": 34,
+      "format": "mcq"
+    },
+    {
+      "key": "instrument_action_interaction",
+      "label": "Instrument\u2013action interaction",
+      "short": "IAI",
+      "train": 5351,
+      "benchmark": 31,
+      "format": "mcq"
+    },
+    {
+      "key": "action_description",
+      "label": "Action description",
+      "short": "AD",
+      "train": 14184,
+      "benchmark": 35,
+      "format": "mcq"
+    },
+    {
+      "key": "pa_action_description",
+      "label": "Procedure-agnostic action",
+      "short": "PAD",
+      "train": 6905,
+      "benchmark": 29,
+      "format": "mcq"
+    },
+    {
+      "key": "local_action_reasoning",
+      "label": "Local action reasoning",
+      "short": "LAR",
+      "train": 5859,
+      "benchmark": 37,
+      "format": "mcq"
+    },
+    {
+      "key": "safety",
+      "label": "Safety practice identification",
+      "short": "SPI",
+      "train": 3870,
+      "benchmark": 31,
+      "format": "mcq"
+    },
+    {
+      "key": "forecast_cot",
+      "label": "Forecasting",
+      "short": "F",
+      "train": 3283,
+      "benchmark": 31,
+      "format": "mcq"
+    },
+    {
+      "key": "temporal_ordering",
+      "label": "Temporal ordering",
+      "short": "TO",
+      "train": 7889,
+      "benchmark": 34,
+      "format": "order"
+    },
+    {
+      "key": "sequence_summarization",
+      "label": "Sequence summarization",
+      "short": "SM",
+      "train": 14926,
+      "benchmark": 41,
+      "format": "summary"
+    }
+  ],
+  "records": [
+    {
+      "category": "forecast_cot",
+      "duration": 364.513,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 29.34,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Total",
+      "subject": "HPB"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 11.888,
+      "specialty": "Urology",
+      "procedure": "Nephroureterectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 5.67,
+      "specialty": "Colorectal",
+      "procedure": "Proctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 7.48,
+      "specialty": "General Surgery",
+      "procedure": "Adrenalectomy",
+      "subject": "Adrenalectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 3.24,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 157.103,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 40.949,
+      "specialty": "General Surgery",
+      "procedure": "Esophagectomy Non-Transthoracic - Transhiatal",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 58.732,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 85.632,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 3.71,
+      "specialty": "Colorectal",
+      "procedure": "Hemicolectomy - Right",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 10.16,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 12.138,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatoduodenectomy",
+      "subject": "HPB"
+    },
+    {
+      "category": "action_description",
+      "duration": 4.61,
+      "specialty": "General Surgery",
+      "procedure": "Cystoduodenostomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 43.91,
+      "specialty": "Colorectal",
+      "procedure": "Panproctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 96.56,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 5.33,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 11.42,
+      "specialty": "General Surgery",
+      "procedure": "Gastrectomy - Subtotal",
+      "subject": "Gastrectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 14.77,
+      "specialty": "Urology",
+      "procedure": "Partial Nephrectomy - Retroperitoneal Lateral",
+      "subject": "Partial Nephrectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 5.02,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "safety",
+      "duration": 13.76,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 12.17,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 19.39,
+      "specialty": "Gynecology",
+      "procedure": "Hysterectomy - Benign",
+      "subject": "Hysterectomy - Benign"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 5.825,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 7.33,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Simple Transvesical",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 19.598,
+      "specialty": "Urology",
+      "procedure": "Partial Nephrectomy",
+      "subject": "Partial Nephrectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 3.6,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 5.12,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 8.71,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 2.622,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 293.939,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 10.19,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Total",
+      "subject": "HPB"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 6.78,
+      "specialty": "Colorectal",
+      "procedure": "Proctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 11.73,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 7.13,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 7.862,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 3.36,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAR",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 41.869,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 5.705,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 7.98,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 61.0,
+      "specialty": "Bariatrics",
+      "procedure": "Duodenal Switch",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 14.103,
+      "specialty": "General Surgery",
+      "procedure": "Gastrectomy - Subtotal",
+      "subject": "Gastrectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 16.49,
+      "specialty": "General Surgery",
+      "procedure": "Heller Myotomy",
+      "subject": "Foregut"
+    },
+    {
+      "category": "action_description",
+      "duration": 5.343,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 20.19,
+      "specialty": "Thoracic",
+      "procedure": "Esophagectomy Transthoracic - Neck Anastomosis",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 12.46,
+      "specialty": "Gynecology",
+      "procedure": "Lymphadenectomy",
+      "subject": "Other Gynecology"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 8.1,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 143.44,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 23.41,
+      "specialty": "General Surgery",
+      "procedure": "Frey's Procedure",
+      "subject": "HPB"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 27.82,
+      "specialty": "Gynecology",
+      "procedure": "Hysterectomy - Benign",
+      "subject": "Hysterectomy - Benign"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 8.68,
+      "specialty": "Colorectal",
+      "procedure": "Other Colorectal",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 3.76,
+      "specialty": "Colorectal",
+      "procedure": "Transanal Local Excision",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 5.72,
+      "specialty": "General Surgery",
+      "procedure": "Lysis of Adhesions - Isolated",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "action_description",
+      "duration": 3.22,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 6.68,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 7.26,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 4.6,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "safety",
+      "duration": 22.86,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 28.92,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 70.4,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "action_description",
+      "duration": 9.064,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "safety",
+      "duration": 2.38,
+      "specialty": "Colorectal",
+      "procedure": "Proctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 10.77,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 3.9,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "action_description",
+      "duration": 4.38,
+      "specialty": "Colorectal",
+      "procedure": "Hemicolectomy - Right",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "safety",
+      "duration": 7.96,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 10.746,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 27.36,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 12.742,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "object_existence",
+      "duration": 6.83,
+      "specialty": "Colorectal",
+      "procedure": "Hemicolectomy - Right",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 597.97,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "action_description",
+      "duration": 6.191,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "action_description",
+      "duration": 24.29,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 3.98,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 6.27,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 28.37,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 5.67,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 188.539,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 7.542,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 3.33,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 12.608,
+      "specialty": "General Surgery",
+      "procedure": "Esophagectomy Non-Transthoracic - Transhiatal",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 75.02,
+      "specialty": "Bariatrics",
+      "procedure": "Gastric Bypass (Roux-en-Y)",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 229.69,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 117.376,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 10.95,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 7.42,
+      "specialty": "Urology",
+      "procedure": "Other Urology",
+      "subject": "Other Urology"
+    },
+    {
+      "category": "safety",
+      "duration": 11.97,
+      "specialty": "General Surgery",
+      "procedure": "Lysis of Adhesions - Isolated",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "safety",
+      "duration": 13.57,
+      "specialty": "Thoracic",
+      "procedure": "Esophagectomy Transthoracic - Neck Anastomosis",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 26.398,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 8.59,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 6.46,
+      "specialty": "Colorectal",
+      "procedure": "Ileocolic Resection",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 9.61,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "safety",
+      "duration": 8.7,
+      "specialty": "Colorectal",
+      "procedure": "Transanal Total Mesorectal Excision",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "safety",
+      "duration": 18.465,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 14.529,
+      "specialty": "General Surgery",
+      "procedure": "Other General Surgery",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 6.82,
+      "specialty": "Colorectal",
+      "procedure": "Other Colorectal",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 2.502,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 172.0,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 15.74,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 4.17,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAR",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "object_existence",
+      "duration": 13.386,
+      "specialty": "General Surgery",
+      "procedure": "Esophagectomy Non-Transthoracic - Transhiatal",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 118.0,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 292.57,
+      "specialty": "General Surgery",
+      "procedure": "Heller Myotomy",
+      "subject": "Foregut"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 83.27,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "safety",
+      "duration": 16.927,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 8.567,
+      "specialty": "Urology",
+      "procedure": "Radical Cystectomy w/ Neobladder",
+      "subject": "Cystectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 3.52,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 9.45,
+      "specialty": "Urology",
+      "procedure": "Ureteroureterostomy",
+      "subject": "Other Urology"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 106.0,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "action_description",
+      "duration": 3.52,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 8.56,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 34.157,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 12.39,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 4.962,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 13.168,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 14.577,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Distal",
+      "subject": "HPB"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 6.46,
+      "specialty": "Colorectal",
+      "procedure": "Abdominoperineal Resection (APR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 13.67,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAR",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 217.1,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 89.26,
+      "specialty": "Colorectal",
+      "procedure": "Subtotal Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 5.76,
+      "specialty": "Colorectal",
+      "procedure": "Other Colorectal",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "safety",
+      "duration": 8.76,
+      "specialty": "Colorectal",
+      "procedure": "Transverse Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 4.63,
+      "specialty": "Other",
+      "procedure": "Other",
+      "subject": "Other"
+    },
+    {
+      "category": "action_description",
+      "duration": 9.37,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 8.482,
+      "specialty": "Colorectal",
+      "procedure": "Proctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 8.1,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 2.84,
+      "specialty": "Colorectal",
+      "procedure": "Proctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 2.201,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 118.739,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 14.32,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 6.67,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 3.17,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 5.854,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 4.81,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 17.42,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 21.247,
+      "specialty": "Bariatrics",
+      "procedure": "Sleeve Gastrectomy",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 475.681,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 11.092,
+      "specialty": "Gynecology",
+      "procedure": "Hysterectomy - Benign",
+      "subject": "Hysterectomy - Benign"
+    },
+    {
+      "category": "object_existence",
+      "duration": 8.0,
+      "specialty": "Urology",
+      "procedure": "Radical Cystectomy w/ Neobladder",
+      "subject": "Cystectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 28.14,
+      "specialty": "General Surgery",
+      "procedure": "Umbilical Hernia IPOM",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 327.0,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 11.77,
+      "specialty": "General Surgery",
+      "procedure": "Heller Myotomy",
+      "subject": "Foregut"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 7.88,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia eTEP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 341.826,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 11.685,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 13.786,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 6.88,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 3.17,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 18.291,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Distal",
+      "subject": "HPB"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 10.65,
+      "specialty": "Urology",
+      "procedure": "Partial Nephrectomy - Retroperitoneal Lateral",
+      "subject": "Partial Nephrectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 24.621,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 10.02,
+      "specialty": "Thoracic",
+      "procedure": "Esophagectomy Transthoracic - Neck Anastomosis",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 4.87,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 5.25,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 7.42,
+      "specialty": "Urology",
+      "procedure": "Other Urology",
+      "subject": "Other Urology"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 96.69,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 4.38,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia eTEP - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 28.384,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 21.64,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 82.32,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "action_description",
+      "duration": 12.823,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 13.254,
+      "specialty": "Urology",
+      "procedure": "Partial Nephrectomy - Retroperitoneal Lateral",
+      "subject": "Partial Nephrectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 7.65,
+      "specialty": "Colorectal",
+      "procedure": "Ileocolic Resection",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 570.0,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAR",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 3.88,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 5.925,
+      "specialty": "Gynecology",
+      "procedure": "Diagnostic Laparoscopy",
+      "subject": "Other Gynecology"
+    },
+    {
+      "category": "object_existence",
+      "duration": 10.4,
+      "specialty": "General Surgery",
+      "procedure": "Heller Myotomy",
+      "subject": "Foregut"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 2.77,
+      "specialty": "Colorectal",
+      "procedure": "Other Colorectal",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "safety",
+      "duration": 6.94,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 11.35,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 75.159,
+      "specialty": "General Surgery",
+      "procedure": "Small Bowel Resection",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 6.03,
+      "specialty": "Colorectal",
+      "procedure": "Transanal Total Mesorectal Excision",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 10.09,
+      "specialty": "Colorectal",
+      "procedure": "Total Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 29.48,
+      "specialty": "Thoracic",
+      "procedure": "Esophagectomy Non-Transthoracic - Transhiatal",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 25.265,
+      "specialty": "Bariatrics",
+      "procedure": "Sleeve Gastrectomy",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "action_description",
+      "duration": 11.59,
+      "specialty": "General Surgery",
+      "procedure": "Common Bile Duct Exploration",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "safety",
+      "duration": 6.645,
+      "specialty": "Urology",
+      "procedure": "Partial Nephrectomy",
+      "subject": "Partial Nephrectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 10.203,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 3.88,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "safety",
+      "duration": 2.76,
+      "specialty": "Colorectal",
+      "procedure": "Panproctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 66.99,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "safety",
+      "duration": 19.8,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 20.17,
+      "specialty": "Other",
+      "procedure": "Other",
+      "subject": "Other"
+    },
+    {
+      "category": "action_description",
+      "duration": 24.774,
+      "specialty": "Urology",
+      "procedure": "Radical Cystectomy w/ Neobladder",
+      "subject": "Cystectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 22.81,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 7.585,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 7.083,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "action_description",
+      "duration": 1.78,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 227.65,
+      "specialty": "Gynecology",
+      "procedure": "Ovarian Cystectomy",
+      "subject": "Ovarian Cystectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 56.75,
+      "specialty": "General Surgery",
+      "procedure": "Hiatal Hernia - Paraesophageal",
+      "subject": "Foregut"
+    },
+    {
+      "category": "object_existence",
+      "duration": 5.27,
+      "specialty": "Other",
+      "procedure": "Other",
+      "subject": "Other"
+    },
+    {
+      "category": "action_description",
+      "duration": 4.241,
+      "specialty": "Colorectal",
+      "procedure": "Proctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 3.38,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 26.1,
+      "specialty": "Gynecology",
+      "procedure": "Ovarian Cystectomy",
+      "subject": "Ovarian Cystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 18.21,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAR",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 6.16,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 24.75,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 53.6,
+      "specialty": "Thoracic",
+      "procedure": "Diaphragmatic Hernia Repair",
+      "subject": "Other Thoracic"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 16.752,
+      "specialty": "Gynecology",
+      "procedure": "Diagnostic Laparoscopy",
+      "subject": "Other Gynecology"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 7.168,
+      "specialty": "General Surgery",
+      "procedure": "Other General Surgery",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 4.542,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatoduodenectomy",
+      "subject": "HPB"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 2.42,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Total",
+      "subject": "HPB"
+    },
+    {
+      "category": "safety",
+      "duration": 8.089,
+      "specialty": "Gynecology",
+      "procedure": "Lymphadenectomy",
+      "subject": "Other Gynecology"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 12.732,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 16.429,
+      "specialty": "Gynecology",
+      "procedure": "Diagnostic Laparoscopy",
+      "subject": "Other Gynecology"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 9.665,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 17.082,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 3.7,
+      "specialty": "Colorectal",
+      "procedure": "Abdominoperineal Resection (APR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 24.0,
+      "specialty": "Colorectal",
+      "procedure": "Abdominoperineal Resection (APR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 6.84,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia eTEP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "action_description",
+      "duration": 4.69,
+      "specialty": "Thoracic",
+      "procedure": "Esophagectomy Transthoracic - Chest Anastomosis",
+      "subject": "Esophagectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 11.42,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 10.07,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "action_description",
+      "duration": 15.67,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 8.44,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 17.92,
+      "specialty": "Vascular",
+      "procedure": "Other",
+      "subject": "Other Vascular"
+    },
+    {
+      "category": "object_existence",
+      "duration": 5.11,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "object_existence",
+      "duration": 28.67,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 5.88,
+      "specialty": "General Surgery",
+      "procedure": "Incisional Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 11.87,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "object_existence",
+      "duration": 8.8,
+      "specialty": "Bariatrics",
+      "procedure": "Duodenal Switch",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "object_existence",
+      "duration": 3.92,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 2.0,
+      "specialty": "Colorectal",
+      "procedure": "Abdominoperineal Resection (APR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "object_existence",
+      "duration": 1.521,
+      "specialty": "Urology",
+      "procedure": "Radical Cystectomy w/ Neobladder",
+      "subject": "Cystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 10.1,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 11.223,
+      "specialty": "General Surgery",
+      "procedure": "Other General Surgery",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 4.4,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 5.64,
+      "specialty": "General Surgery",
+      "procedure": "Gastrojejunostomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 3.71,
+      "specialty": "Colorectal",
+      "procedure": "Hemicolectomy - Right",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 49.28,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 13.628,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 97.23,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 225.0,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Distal",
+      "subject": "HPB"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 4.56,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 4.6,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 10.946,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 29.45,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "action_description",
+      "duration": 2.08,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 27.588,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 16.228,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 15.31,
+      "specialty": "Thoracic",
+      "procedure": "Mediastinal Mass Resection",
+      "subject": "Other Thoracic"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 5.92,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 38.16,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 84.49,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 4.38,
+      "specialty": "Gynecology",
+      "procedure": "Lymphadenectomy",
+      "subject": "Other Gynecology"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 8.148,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 5.11,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 11.932,
+      "specialty": "Urology",
+      "procedure": "Partial Nephrectomy",
+      "subject": "Partial Nephrectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 9.61,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Distal",
+      "subject": "HPB"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 26.69,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Simple Transvesical",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 6.65,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 6.24,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Simple Transvesical",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 13.6,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 14.93,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 69.152,
+      "specialty": "General Surgery",
+      "procedure": "Gastrectomy - Subtotal",
+      "subject": "Gastrectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 22.369,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "action_description",
+      "duration": 8.44,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Simple Transvesical",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 325.0,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 4.82,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 70.65,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "safety",
+      "duration": 27.95,
+      "specialty": "Bariatrics",
+      "procedure": "Duodenal Switch",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "object_existence",
+      "duration": 18.928,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Distal",
+      "subject": "HPB"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 9.665,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 33.79,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "object_existence",
+      "duration": 20.15,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 47.66,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 7.39,
+      "specialty": "General Surgery",
+      "procedure": "Common Bile Duct Exploration",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 7.27,
+      "specialty": "General Surgery",
+      "procedure": "Pancreatectomy - Total",
+      "subject": "HPB"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 7.84,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 5.97,
+      "specialty": "General Surgery",
+      "procedure": "Cystoduodenostomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 13.1,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 14.69,
+      "specialty": "Gynecology",
+      "procedure": "Hysterectomy - Benign",
+      "subject": "Hysterectomy - Benign"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 7.84,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 26.649,
+      "specialty": "Gynecology",
+      "procedure": "Ovarian Cystectomy",
+      "subject": "Ovarian Cystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 9.35,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "action_description",
+      "duration": 8.666,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 5.121,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 13.76,
+      "specialty": "General Surgery",
+      "procedure": "Lysis of Adhesions - Isolated",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 26.12,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "pa_action_description",
+      "duration": 14.44,
+      "specialty": "Gynecology",
+      "procedure": "Endometriosis Resection",
+      "subject": "Endometriosis"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 220.879,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "object_attribute",
+      "duration": 8.31,
+      "specialty": "General Surgery",
+      "procedure": "Gastrojejunostomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "forecast_cot",
+      "duration": 78.58,
+      "specialty": "Urology",
+      "procedure": "Nephrectomy",
+      "subject": "Nephrectomy"
+    },
+    {
+      "category": "object_existence",
+      "duration": 10.663,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "action_description",
+      "duration": 9.49,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 10.51,
+      "specialty": "Bariatrics",
+      "procedure": "Duodenal Switch",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "object_existence",
+      "duration": 9.729,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 26.447,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 19.728,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "temporal_ordering",
+      "duration": 282.4,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 30.555,
+      "specialty": "Bariatrics",
+      "procedure": "Sleeve Gastrectomy",
+      "subject": "Bariatrics"
+    },
+    {
+      "category": "action_description",
+      "duration": 2.362,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "action_description",
+      "duration": 4.84,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 20.75,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Simple Transvesical",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 5.1,
+      "specialty": "General Surgery",
+      "procedure": "Gastrectomy - Total",
+      "subject": "Gastrectomy"
+    },
+    {
+      "category": "safety",
+      "duration": 4.53,
+      "specialty": "Other",
+      "procedure": "Other",
+      "subject": "Other"
+    },
+    {
+      "category": "instrument_action_interaction",
+      "duration": 19.59,
+      "specialty": "Thoracic",
+      "procedure": "Hiatal Hernia - Paraesophageal",
+      "subject": "Foregut"
+    },
+    {
+      "category": "object_existence",
+      "duration": 8.162,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "local_action_reasoning",
+      "duration": 13.1,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 100.165,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 450.29,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 115.79,
+      "specialty": "Other",
+      "procedure": "Other",
+      "subject": "Other"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 75.87,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 119.44,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 538.574,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 300.601,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 77.118,
+      "specialty": "General Surgery",
+      "procedure": "Other General Surgery",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 75.658,
+      "specialty": "General Surgery",
+      "procedure": "Gastrectomy - Subtotal",
+      "subject": "Gastrectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 95.18,
+      "specialty": "General Surgery",
+      "procedure": "Liver Resection",
+      "subject": "HPB"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 257.83,
+      "specialty": "General Surgery",
+      "procedure": "Appendectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 1026.23,
+      "specialty": "Colorectal",
+      "procedure": "Hemicolectomy - Left",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 78.891,
+      "specialty": "Thoracic",
+      "procedure": "Pulmonary Lobectomy",
+      "subject": "Lung Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 27.1,
+      "specialty": "Colorectal",
+      "procedure": "Hemicolectomy - Right",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 351.945,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 157.93,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 30.87,
+      "specialty": "Colorectal",
+      "procedure": "Transanal Total Mesorectal Excision",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 22.38,
+      "specialty": "Colorectal",
+      "procedure": "Proctocolectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 24.825,
+      "specialty": "General Surgery",
+      "procedure": "Small Bowel Resection",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 303.76,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Retzius Sparing",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 89.97,
+      "specialty": "General Surgery",
+      "procedure": "Hiatal Hernia - Paraesophageal",
+      "subject": "Foregut"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 72.22,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 54.071,
+      "specialty": "Gynecology",
+      "procedure": "Myomectomy",
+      "subject": "Myomectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 31.655,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 61.313,
+      "specialty": "Urology",
+      "procedure": "Partial Nephrectomy",
+      "subject": "Partial Nephrectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 202.43,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy - Pediatric",
+      "subject": "General Surgery - Pediatric"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 379.76,
+      "specialty": "Colorectal",
+      "procedure": "Sigmoid Colectomy",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 240.99,
+      "specialty": "General Surgery",
+      "procedure": "Inguinal Hernia - Unilateral",
+      "subject": "Inguinal Hernia"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 43.655,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 146.755,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/o Lymphadenectomy",
+      "subject": "Prostatectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 62.46,
+      "specialty": "Colorectal",
+      "procedure": "Abdominoperineal Resection (APR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 23.883,
+      "specialty": "General Surgery",
+      "procedure": "Other General Surgery",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 35.235,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 453.29,
+      "specialty": "General Surgery",
+      "procedure": "Ventral Hernia TAPP",
+      "subject": "Ventral Hernia"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 194.62,
+      "specialty": "Other",
+      "procedure": "Other",
+      "subject": "Other"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 35.252,
+      "specialty": "Colorectal",
+      "procedure": "Low Anterior Resection (LAR)",
+      "subject": "Rectal Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 68.3,
+      "specialty": "General Surgery",
+      "procedure": "Cholecystectomy",
+      "subject": "Cholecystectomy"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 42.766,
+      "specialty": "General Surgery",
+      "procedure": "Splenectomy",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 129.206,
+      "specialty": "General Surgery",
+      "procedure": "Other General Surgery",
+      "subject": "Other General Surgery"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 160.25,
+      "specialty": "Colorectal",
+      "procedure": "Hemicolectomy - Right",
+      "subject": "Colon Resection"
+    },
+    {
+      "category": "sequence_summarization",
+      "duration": 491.873,
+      "specialty": "Urology",
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "subject": "Prostatectomy"
+    }
+  ],
+  "examples": [
+    {
+      "id": "0c0368222999f0438acd67df0e414a9f_1013.000_1021.000",
+      "category": "object_existence",
+      "title": "Entity existence",
+      "question": "What vessel is visualized while controlling branches off the pelvic arterial tree in this segment?",
+      "answer": "Superior vesical artery",
+      "options": [
+        "Internal iliac artery",
+        "Vas deferens",
+        "Uterine vein",
+        "Inferior vesical artery",
+        "Inferior epigastric artery",
+        "Superior vesical artery",
+        "Obturator artery"
+      ],
+      "events": [],
+      "duration": 8.0,
+      "procedure": "Radical Cystectomy w/ Neobladder",
+      "specialty": "Urology",
+      "video": "page/media/gallery-object_existence-1.mp4",
+      "poster": "page/media/gallery-object_existence-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=fp5sA3-qWrM",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "1163fbc059e59093751021222969b500_417.310_425.290",
+      "category": "object_existence",
+      "title": "Entity existence",
+      "question": "Amid pelvic vascular exposure, which artery is clearly identified in this clip?",
+      "answer": "Left iliac artery",
+      "options": [
+        "Iliocolic artery",
+        "Superior vesical artery",
+        "Superior rectal artery",
+        "Left branch of the inferior mesenteric artery",
+        "Left iliac artery",
+        "Left colic vein",
+        "Ascending branch of the right colic artery"
+      ],
+      "events": [],
+      "duration": 7.98,
+      "procedure": "Sigmoid Colectomy",
+      "specialty": "Colorectal",
+      "video": "page/media/gallery-object_existence-2.mp4",
+      "poster": "page/media/gallery-object_existence-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=grmV4-E9RRg",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "2de06b81354d665e52d6376f1eb763fc_11.560_19.660",
+      "category": "object_existence",
+      "title": "Entity existence",
+      "question": "Which anatomical structure is identified during the initial mobilization phase in this segment?",
+      "answer": "Gastrocolic ligament",
+      "options": [
+        "Splenorenal ligament",
+        "Splenic vein",
+        "Fundus of the stomach",
+        "Anterior surface of the liver",
+        "Gastrocolic ligament",
+        "Posterior segment of the left upper lobe",
+        "Left lobe of the liver"
+      ],
+      "events": [],
+      "duration": 8.1,
+      "procedure": "Splenectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-object_existence-3.mp4",
+      "poster": "page/media/gallery-object_existence-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=6vYkOy3UePQ",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "OoCkHL9-pNg_538.890_542.130",
+      "category": "object_attribute",
+      "title": "Entity attribute",
+      "question": "What branching pattern of the cystic artery is observed here?",
+      "answer": "A small posterior branch of the cystic artery is present",
+      "options": [
+        "The cystic artery is centrally located and has been dissected free",
+        "A small posterior branch of the cystic artery is present",
+        "The cystic artery is seen running parallel to the cystic duct",
+        "A small branch of the right hepatic artery is visible near the cystic artery",
+        "Anterior cystic artery is present",
+        "A small anterior branch of the cystic artery is present",
+        "A lymph node is visible adjacent to the cystic artery"
+      ],
+      "events": [],
+      "duration": 3.24,
+      "procedure": "Cholecystectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-object_attribute-1.mp4",
+      "poster": "page/media/gallery-object_attribute-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=OoCkHL9-pNg",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "m5lQtMmYW-s_255.790_264.100",
+      "category": "object_attribute",
+      "title": "Entity attribute",
+      "question": "After closing the anastomosis, what is the state of the stapled anastomosis?",
+      "answer": "Reinforced with an over-sewn suture line over the staples",
+      "options": [
+        "A continuous, well-formed staple line with good apposition and no active bleeding is visible",
+        "A stapled side-to-side anastomosis configuration is present with apposed gastric and jejunal walls",
+        "Completed with a circular stapler and covered by a mesenteric patch",
+        "Reinforced with an over-sewn suture line over the staples",
+        "Hand-sewn anastomosis constructed in two layers",
+        "A circular stapled anastomosis is present with a continuous staple line",
+        "Side-to-side mechanical (stapled) gastrojejunal anastomosis"
+      ],
+      "events": [],
+      "duration": 8.31,
+      "procedure": "Gastrojejunostomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-object_attribute-2.mp4",
+      "poster": "page/media/gallery-object_attribute-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=m5lQtMmYW-s",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "0c0368222999f0438acd67df0e414a9f_50830.000_538.917",
+      "category": "object_attribute",
+      "title": "Entity attribute",
+      "question": "What is the configuration of the left ureter with respect to clipping here?",
+      "answer": "The ureter is clipped and a suture is attached for later anastomosis",
+      "options": [
+        "A single-J ureteral stent is in place",
+        "It is clipped right near its junction with the left renal vein",
+        "Double-clipped prior to transection",
+        "The ureter is clipped and a suture is attached for later anastomosis",
+        "Ligated with a clip at the caudal extent",
+        "A vessel loop is placed around the ureter for temporary retraction",
+        "A suture is secured to the ureter for retraction purposes"
+      ],
+      "events": [],
+      "duration": 8.57,
+      "procedure": "Radical Cystectomy w/ Neobladder",
+      "specialty": "Urology",
+      "video": "page/media/gallery-object_attribute-3.mp4",
+      "poster": "page/media/gallery-object_attribute-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=fp5sA3-qWrM",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "74f3d9719938e377a566e3d61fc71902_46.470_51.070",
+      "category": "instrument_action_interaction",
+      "title": "Instrument\u2013action interaction",
+      "question": "What action is performed by the suction irrigator in this clip?",
+      "answer": "Bluntly dissect tissue planes",
+      "options": [
+        "Aspirate blood from the operative field",
+        "Suction blood to clear the field",
+        "Perform suction to minimize contamination",
+        "Dissect the mesoappendix",
+        "Dissecting the mesoappendix",
+        "Bluntly dissect tissue planes",
+        "Maintain a clear field by suction"
+      ],
+      "events": [],
+      "duration": 4.6,
+      "procedure": "Appendectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-instrument_action_interaction-1.mp4",
+      "poster": "page/media/gallery-instrument_action_interaction-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=_Lm_EUPxuGI",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "745b2594c826c5cdfbc9c95e60af0e86_26114.000_94.202",
+      "category": "instrument_action_interaction",
+      "title": "Instrument\u2013action interaction",
+      "question": "What instrument is used to illuminate the right ureter with infrared light in this segment?",
+      "answer": "Ureteral catheter",
+      "options": [
+        "Inserted into the rectal stump",
+        "Urinary catheter",
+        "Inserted into the ureter",
+        "Ureteral catheter",
+        "Insert into the bladder lumen",
+        "Ultrasound",
+        "Guided into the pelvic cavity"
+      ],
+      "events": [],
+      "duration": 8.15,
+      "procedure": "Sigmoid Colectomy",
+      "specialty": "Colorectal",
+      "video": "page/media/gallery-instrument_action_interaction-2.mp4",
+      "poster": "page/media/gallery-instrument_action_interaction-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=CkPybIW1uGk",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "9jTHzTM334k_348.520_356.360",
+      "category": "instrument_action_interaction",
+      "title": "Instrument\u2013action interaction",
+      "question": "What action is performed by the laparoscopic stapler in this clip?",
+      "answer": "Transect the left hepatic vein flush to the vena cava",
+      "options": [
+        "Robotic endo stapler",
+        "Transect the left hepatic duct",
+        "Transect the right hepatic vein trunk",
+        "Stapling device with a vascular load",
+        "Transect the left hepatic vein flush to the vena cava",
+        "Vascular laparoscopic stapler with a green cartridge",
+        "Transect the right hepatic artery"
+      ],
+      "events": [],
+      "duration": 7.84,
+      "procedure": "Liver Resection",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-instrument_action_interaction-3.mp4",
+      "poster": "page/media/gallery-instrument_action_interaction-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=9jTHzTM334k",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "0e9b1b0fdf876c7226899d0ceade019b_325.060_333.500",
+      "category": "action_description",
+      "title": "Action description",
+      "question": "What action is being performed in this segment?",
+      "answer": "Placing a traction stitch in the bladder mucosa",
+      "options": [
+        "Removing the previously placed suspension sutures",
+        "Inserting a urethral catheter under direct vision",
+        "Placing a traction stitch in the bladder mucosa",
+        "Performing a running suture to close the bladder neck",
+        "Releasing the bladder retraction sutures",
+        "Mobilizing the bladder trigone",
+        "Placing a twenty-two French three-way Foley catheter"
+      ],
+      "events": [],
+      "duration": 8.44,
+      "procedure": "Prostatectomy - Simple Transvesical",
+      "specialty": "Urology",
+      "video": "page/media/gallery-action_description-1.mp4",
+      "poster": "page/media/gallery-action_description-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=yq3olA7gU9o",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "6QdUWdRoZ3s_307.170_315.760",
+      "category": "action_description",
+      "title": "Action description",
+      "question": "What is the surgeon doing in this segment?",
+      "answer": "Sealing hilar vessels with the energy device",
+      "options": [
+        "Placing a clip on the splenic artery stump",
+        "Dissecting the spleen from the diaphragm",
+        "Applying clips to a venous branch and dividing it",
+        "Sealing hilar vessels with the energy device",
+        "Dividing the short gastric vessels with an energy device",
+        "Retracting the stomach to visualize the splenic hilum",
+        "Inspecting the operative bed for bleeding"
+      ],
+      "events": [],
+      "duration": 8.59,
+      "procedure": "Splenectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-action_description-2.mp4",
+      "poster": "page/media/gallery-action_description-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=6QdUWdRoZ3s",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "a4b04b0a7d21bd19937a2e6df5a044c4_1133.189_1141.855",
+      "category": "action_description",
+      "title": "Action description",
+      "question": "Which action best describes what is happening here?",
+      "answer": "Opening the endopelvic fascia",
+      "options": [
+        "Incising the posterior urethral plate",
+        "Dissecting the anterior plane of the bladder",
+        "Retracting tissue using the suction instrument",
+        "Applying a clip to a small vessel",
+        "Transecting the vas deferens",
+        "Opening the endopelvic fascia",
+        "Dissecting the Retzius space"
+      ],
+      "events": [],
+      "duration": 8.67,
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "specialty": "Urology",
+      "video": "page/media/gallery-action_description-3.mp4",
+      "poster": "page/media/gallery-action_description-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=jMZNsFtR_jw",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "6e44b8d373df8013f3a8a9ae77a27d57_37891.000_705.093",
+      "category": "pa_action_description",
+      "title": "Procedure-agnostic action",
+      "question": "Which common operative action is occurring at this moment?",
+      "answer": "Incising",
+      "options": [
+        "Mobilizing the myoma",
+        "Injecting the vasopressin",
+        "Ligating",
+        "Dividing the fibroid",
+        "Incising",
+        "Dissecting",
+        "Applying counter traction"
+      ],
+      "events": [],
+      "duration": 7.86,
+      "procedure": "Myomectomy",
+      "specialty": "Gynecology",
+      "video": "page/media/gallery-pa_action_description-1.mp4",
+      "poster": "page/media/gallery-pa_action_description-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=mXq6VQRXrK8",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "2e2490e62e610c31be76d3e8e2ff36a0_37980.000_225.385",
+      "category": "pa_action_description",
+      "title": "Procedure-agnostic action",
+      "question": "What generic surgical action is shown here?",
+      "answer": "Releasing retraction",
+      "options": [
+        "Elevating structures",
+        "Tissue mobilization",
+        "Coagulating",
+        "Retracting structures",
+        "Ligating",
+        "Suturing",
+        "Releasing retraction"
+      ],
+      "events": [],
+      "duration": 7.58,
+      "procedure": "Prostatectomy - Radical w/ Lymphadenectomy",
+      "specialty": "Urology",
+      "video": "page/media/gallery-pa_action_description-2.mp4",
+      "poster": "page/media/gallery-pa_action_description-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=NitKIjCcS7U",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "OoCkHL9-pNg_368.250_376.690",
+      "category": "pa_action_description",
+      "title": "Procedure-agnostic action",
+      "question": "Which common operative action is occurring at this moment?",
+      "answer": "Mobilizing tissue",
+      "options": [
+        "Applying traction",
+        "Securing vessel",
+        "Inspecting anatomy",
+        "Mobilizing tissue",
+        "Ligating",
+        "Incising",
+        "Coagulating"
+      ],
+      "events": [],
+      "duration": 8.44,
+      "procedure": "Cholecystectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-pa_action_description-3.mp4",
+      "poster": "page/media/gallery-pa_action_description-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=OoCkHL9-pNg",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "wl0Q2LNvfL8_208.980_217.080",
+      "category": "local_action_reasoning",
+      "title": "Local action reasoning",
+      "question": "What is the surgeon trying to achieve immediately by protecting the duodenum during apical lymph node dissection?",
+      "answer": "Prevent duodenal damage during the dissection",
+      "options": [
+        "To avoid vascular injury and bleeding from the aorta",
+        "To keep the duodenum safe during the dissection",
+        "Prevent duodenal damage during the dissection",
+        "To prevent injury to the adjacent small bowel",
+        "To preserve the integrity of the surrounding peritoneum",
+        "To avoid injury to the ureter during the dissection",
+        "To facilitate the subsequent division of the inferior mesenteric artery"
+      ],
+      "events": [],
+      "duration": 8.1,
+      "procedure": "Low Anterior Resection (LAR)",
+      "specialty": "Colorectal",
+      "video": "page/media/gallery-local_action_reasoning-1.mp4",
+      "poster": "page/media/gallery-local_action_reasoning-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=wl0Q2LNvfL8",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "bNHZgaml7J8_121.050_128.930",
+      "category": "local_action_reasoning",
+      "title": "Local action reasoning",
+      "question": "Why is the ipsilateral retro-rectus space being cleared at the start?",
+      "answer": "To identify the linea alba",
+      "options": [
+        "To create a CO2 cushion for safe entry into the retro-rectus space",
+        "To avoid injury to underlying structures during dissection",
+        "To facilitate crossover to the contralateral rectus space",
+        "To maintain clear visualization of the posterior rectus all the way down",
+        "To prevent injury to the rectus muscle during dissection",
+        "To confirm the anatomical boundaries of the retro-rectus space",
+        "To identify the linea alba"
+      ],
+      "events": [],
+      "duration": 7.88,
+      "procedure": "Incisional Hernia eTEP",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-local_action_reasoning-2.mp4",
+      "poster": "page/media/gallery-local_action_reasoning-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=bNHZgaml7J8",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "0f7034d1db0843a0f8b4fbf3a53de219_74.820_82.240",
+      "category": "local_action_reasoning",
+      "title": "Local action reasoning",
+      "question": "Why is the cystoscope light used here?",
+      "answer": "To guide identification of the structure within the pelvic space",
+      "options": [
+        "To improve visualization of the structure",
+        "To expose the bladder neck and facilitate dissection",
+        "To improve exposure of the pelvic floor",
+        "To assist visualization of the pelvic space",
+        "To guide identification of the structure within the pelvic space",
+        "To help identify the structure more easily",
+        "To aid identification of the ureteral junction"
+      ],
+      "events": [],
+      "duration": 7.42,
+      "procedure": "Other Urology",
+      "specialty": "Urology",
+      "video": "page/media/gallery-local_action_reasoning-3.mp4",
+      "poster": "page/media/gallery-local_action_reasoning-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=bULxVQBPj-M",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "ff3d158ceed6c4cf904d129834a90dc0_254.480_262.440",
+      "category": "safety",
+      "title": "Safety practice identification",
+      "question": "Identify the safety behavior during closure of the bowel defect.",
+      "answer": "Closing the defect transversely to prevent luminal narrowing and ensure apposition",
+      "options": [
+        "Suturing closed small defects in the posterior layer to prevent bowel entrapment and ensure a tension-free closure",
+        "Insufflating the jejunum and observing for absence of leakage from the closed defect",
+        "Closing the defect transversely to prevent luminal narrowing and ensure apposition",
+        "Systematically running the small bowel to inspect for issues before proceeding",
+        "Closing the peritoneal flap to eliminate a potential internal hernia defect",
+        "Closing the mesenteric defect with a running suture to prevent internal herniation",
+        "Carefully inspecting the bowel to confirm no injury or leakage before proceeding"
+      ],
+      "events": [],
+      "duration": 7.96,
+      "procedure": "Appendectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-safety-1.mp4",
+      "poster": "page/media/gallery-safety-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=MGK5YMp2jHI",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "ff7f0a7d5a238cc0df84142ed54906c3_181.865_189.954",
+      "category": "safety",
+      "title": "Safety practice identification",
+      "question": "Identify the safety measure visible in this segment.",
+      "answer": "Retracting the umbilical artery medially to improve visualization of the dissection boundary",
+      "options": [
+        "Identifying the ureter and keeping it in view to avoid injury",
+        "Maintaining visualization of the obturator nerve during pelvic sidewall dissection",
+        "Inspecting the operative field to ensure complete mobilization of the ureter",
+        "Retracting the umbilical artery medially to improve visualization of the dissection boundary",
+        "Systematically inspecting the dissection plane to confirm adequate margins",
+        "Encircling the gonadal vein with a vessel loop/tape for secure control and identification",
+        "Deliberately exposing and identifying the genitofemoral nerve to avoid injury during dissection"
+      ],
+      "events": [],
+      "duration": 8.09,
+      "procedure": "Lymphadenectomy",
+      "specialty": "Gynecology",
+      "video": "page/media/gallery-safety-2.mp4",
+      "poster": "page/media/gallery-safety-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=AslCUdpSaig",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "ktvVvPHpbn4_114.110_121.760",
+      "category": "safety",
+      "title": "Safety practice identification",
+      "question": "What precautionary action is shown in this segment?",
+      "answer": "Applying gentle traction to the mesentery to facilitate dissection",
+      "options": [
+        "Pausing to visually inspect the transected pedicle for any active bleeding before proceeding",
+        "Applying gentle traction to the mesentery to facilitate dissection",
+        "Identifying and protecting the right ureter to avoid thermal injury during pedicle dissection",
+        "Ensuring adequate exposure of the pedicle before applying energy",
+        "Momentarily pausing to visually confirm the LigaSure is set to the correct energy level",
+        "Retracting the duodenum inferiorly to maintain a safe distance from the dissection plane",
+        "Retracting the LigaSure tip slightly to ensure a safe distance from the duodenum"
+      ],
+      "events": [],
+      "duration": 7.65,
+      "procedure": "Ileocolic Resection",
+      "specialty": "Colorectal",
+      "video": "page/media/gallery-safety-3.mp4",
+      "poster": "page/media/gallery-safety-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=ktvVvPHpbn4",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "ff3d158ceed6c4cf904d129834a90dc0_151.660_159.500",
+      "category": "forecast_cot",
+      "title": "Forecasting",
+      "question": "Given the intraoperative context shown, what would be the expected next procedural action?",
+      "answer": "Reinforce the transection line with sutures",
+      "options": [
+        "Conduct an intraoperative leak test of the connection",
+        "Begin dissection around the lesion",
+        "Reinforce the transection line with sutures",
+        "Perform intraoperative ultrasound assessment of the target region",
+        "Begin the process of ligating the appendiceal artery",
+        "Initiate the closure of the appendiceal stump",
+        "Proceed with dissection of the surrounding adhesions"
+      ],
+      "events": [],
+      "duration": 7.84,
+      "procedure": "Appendectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-forecast_cot-1.mp4",
+      "poster": "page/media/gallery-forecast_cot-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=MGK5YMp2jHI",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "e3515e1a30e0cb1119f42794180604ea_182.722_195.330",
+      "category": "forecast_cot",
+      "title": "Forecasting",
+      "question": "Considering the surgical progress up to this point, what is the next step the team is likely to take?",
+      "answer": "Close the esophagojejunostomy site with running sutures",
+      "options": [
+        "Continue mediastinal dissection around the esophagus",
+        "Transect the proximal esophagus in the neck incision",
+        "Close the esophagojejunostomy site with running sutures",
+        "Advance the gastric conduit into the chest",
+        "Perform a side-to-side jejunojejunostomy to restore downstream continuity",
+        "Add reinforcing sutures along the staple line of the esophagojejunostomy",
+        "Perform a pyloroplasty"
+      ],
+      "events": [],
+      "duration": 12.61,
+      "procedure": "Esophagectomy Non-Transthoracic - Transhiatal",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-forecast_cot-2.mp4",
+      "poster": "page/media/gallery-forecast_cot-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=zLOQZQvRzKc",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "47ceab5bcf8f4bca979822966dc83ba8_629.950_643.578",
+      "category": "forecast_cot",
+      "title": "Forecasting",
+      "question": "From the current stage of the operation, what is the most probable next procedural move?",
+      "answer": "Begin suturing to control bleeding and reconstruct",
+      "options": [
+        "Reapply the retractor to optimize exposure",
+        "Begin suturing to control bleeding and reconstruct",
+        "Advance the dissection along the posterior aspect of the myometrium",
+        "Initiate morcellation of the removed specimen",
+        "Continue advancing the dissection toward the target",
+        "Begin reconstruction of the uterine defect",
+        "Proceed with further dissection along the established plane"
+      ],
+      "events": [],
+      "duration": 13.63,
+      "procedure": "Myomectomy",
+      "specialty": "Gynecology",
+      "video": "page/media/gallery-forecast_cot-3.mp4",
+      "poster": "page/media/gallery-forecast_cot-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=cs2aI4Ji3J4",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "BvutK-6q5BI_132.290_143.060",
+      "category": "temporal_ordering",
+      "title": "Temporal ordering",
+      "question": "How do the following procedural events sequence over the course of the operation?",
+      "answer": "B,A,C",
+      "options": [],
+      "events": [
+        {
+          "id": "A",
+          "text": "Interior view shows the infundibulum narrowing into the cystic duct"
+        },
+        {
+          "id": "B",
+          "text": "Residual debris inside the gallbladder is cleaned out"
+        },
+        {
+          "id": "C",
+          "text": "Surrounding tissue is peeled off the cystic duct"
+        }
+      ],
+      "duration": 10.77,
+      "procedure": "Cholecystectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-temporal_ordering-1.mp4",
+      "poster": "page/media/gallery-temporal_ordering-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=BvutK-6q5BI",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "0e9b1b0fdf876c7226899d0ceade019b_256.290_282.980",
+      "category": "temporal_ordering",
+      "title": "Temporal ordering",
+      "question": "Arrange the following intraoperative milestones in their true sequence",
+      "answer": "C,B,A",
+      "options": [],
+      "events": [
+        {
+          "id": "A",
+          "text": "Urethral mucosa is advanced with suturing"
+        },
+        {
+          "id": "B",
+          "text": "The freed prostatic adenoma is placed into an EndoCatch retrieval bag"
+        },
+        {
+          "id": "C",
+          "text": "The apex of the adenoma and the urinary catheter are identified"
+        }
+      ],
+      "duration": 26.69,
+      "procedure": "Prostatectomy - Simple Transvesical",
+      "specialty": "Urology",
+      "video": "page/media/gallery-temporal_ordering-2.mp4",
+      "poster": "page/media/gallery-temporal_ordering-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=yq3olA7gU9o",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "25f1832aa86da203a38a0cebd2a27dda_537.000_561.000",
+      "category": "temporal_ordering",
+      "title": "Temporal ordering",
+      "question": "What is the correct chronological order of the following events observed in the surgery?",
+      "answer": "C,B,A",
+      "options": [],
+      "events": [
+        {
+          "id": "A",
+          "text": "Transperineal approach proceeded"
+        },
+        {
+          "id": "B",
+          "text": "Proximal sigmoid colon divided"
+        },
+        {
+          "id": "C",
+          "text": "Fat tissues in the ischiorectal fossa exposed"
+        }
+      ],
+      "duration": 24.0,
+      "procedure": "Abdominoperineal Resection (APR)",
+      "specialty": "Colorectal",
+      "video": "page/media/gallery-temporal_ordering-3.mp4",
+      "poster": "page/media/gallery-temporal_ordering-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=H4k6MkMGEnA",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "26ab8e0dc44f5f9791a05ca2a25b2ef4_220.113_251.768",
+      "category": "sequence_summarization",
+      "title": "Sequence summarization",
+      "question": "What are the key operative steps used to secure and divide the cystic duct and cystic artery?",
+      "answer": "Following stone removal and confirmation of the critical view of safety, definitive clips are applied to the cystic duct, clips are applied to the cystic artery, safe anatomy around Calot is reconfirmed, and the clipped cystic duct and cystic artery are divided.",
+      "options": [],
+      "events": [],
+      "duration": 31.66,
+      "procedure": "Cholecystectomy",
+      "specialty": "General Surgery",
+      "video": "page/media/gallery-sequence_summarization-1.mp4",
+      "poster": "page/media/gallery-sequence_summarization-1.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=MhXJVCkt1cU",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "A5BF1_Vy9YY_55.290_86.160",
+      "category": "sequence_summarization",
+      "title": "Sequence summarization",
+      "question": "What sequence of procedural steps is performed to achieve central ligation of the inferior mesenteric artery at its origin in this operation?",
+      "answer": "First, the sigmoid colon is mobilized off the left abdominal wall; then the sigmoid mesentery is mobilized via a medial approach to expose the vascular pedicle; finally, the inferior mesenteric artery is ligated at its origin.",
+      "options": [],
+      "events": [],
+      "duration": 30.87,
+      "procedure": "Transanal Total Mesorectal Excision",
+      "specialty": "Colorectal",
+      "video": "page/media/gallery-sequence_summarization-2.mp4",
+      "poster": "page/media/gallery-sequence_summarization-2.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=A5BF1_Vy9YY",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    },
+    {
+      "id": "4356eab416930f3bc55c49d3f860bf32_236.222_271.457",
+      "category": "sequence_summarization",
+      "title": "Sequence summarization",
+      "question": "Describe the workflow used to extract the tumor specimen safely and set up for anastomosis.",
+      "answer": "The surgeon enlarges the left lower quadrant incision to a small mini-laparotomy; places a wound protection sleeve to prevent tumor implantation; exteriorizes the tumor-bearing bowel segment; divides the bowel extracorporeally and separates the specimen; sends the specimen for pathologic assessment; secures the anvil to the proximal colon; closes the incision and re-establishes laparoscopy, then confirms the anvil reaches the rectal stump.",
+      "options": [],
+      "events": [],
+      "duration": 35.23,
+      "procedure": "Low Anterior Resection (LAR)",
+      "specialty": "Colorectal",
+      "video": "page/media/gallery-sequence_summarization-3.mp4",
+      "poster": "page/media/gallery-sequence_summarization-3.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=APVqkfmq8wY",
+      "referenceNote": "Reference from the surgeon-verified benchmark."
+    }
+  ],
+  "models": [
+    {
+      "name": "Human",
+      "video": 64.9,
+      "blind": null,
+      "ci": [
+        59.6,
+        70.2
+      ],
+      "gain": null,
+      "categories": {
+        "action_description": 74.3,
+        "object_existence": 51.3,
+        "object_attribute": 73.5,
+        "pa_action_description": 96.5,
+        "instrument_action_interaction": 74.2,
+        "local_action_reasoning": 35.1,
+        "safety": 71.0,
+        "forecast_cot": 54.8,
+        "temporal_ordering": 61.8,
+        "sequence_summarization": null
+      },
+      "blindCategories": {},
+      "group": "human",
+      "ciHalfWidth": 5.3,
+      "categoryGains": {}
+    },
+    {
+      "name": "SUREON-VLM",
+      "video": 48.2,
+      "blind": 19.1,
+      "ci": [
+        42.5,
+        53.9
+      ],
+      "gain": 29.1,
+      "categories": {
+        "action_description": 65.7,
+        "object_existence": 48.6,
+        "object_attribute": 47.1,
+        "pa_action_description": 41.4,
+        "instrument_action_interaction": 38.7,
+        "local_action_reasoning": 43.2,
+        "safety": 58.1,
+        "forecast_cot": 35.5,
+        "temporal_ordering": 52.9,
+        "sequence_summarization": 14.6
+      },
+      "blindCategories": {
+        "action_description": 22.9,
+        "object_existence": 8.1,
+        "object_attribute": 20.6,
+        "pa_action_description": 6.9,
+        "instrument_action_interaction": 25.8,
+        "local_action_reasoning": 13.5,
+        "safety": 32.3,
+        "forecast_cot": 29.0,
+        "temporal_ordering": 14.7,
+        "sequence_summarization": 2.4
+      },
+      "group": "ours",
+      "ciHalfWidth": 5.7,
+      "categoryGains": {
+        "action_description": 42.9,
+        "object_existence": 40.5,
+        "object_attribute": 26.5,
+        "pa_action_description": 34.5,
+        "instrument_action_interaction": 12.9,
+        "local_action_reasoning": 29.7,
+        "safety": 25.8,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 38.2,
+        "sequence_summarization": 12.2
+      }
+    },
+    {
+      "name": "Gemini 3.1 Pro",
+      "video": 52.2,
+      "blind": 31.8,
+      "ci": [
+        46.7,
+        57.7
+      ],
+      "gain": 20.4,
+      "categories": {
+        "action_description": 54.3,
+        "object_existence": 48.6,
+        "object_attribute": 41.2,
+        "pa_action_description": 69.0,
+        "instrument_action_interaction": 54.8,
+        "local_action_reasoning": 56.8,
+        "safety": 61.3,
+        "forecast_cot": 19.4,
+        "temporal_ordering": 64.7,
+        "sequence_summarization": 0.0
+      },
+      "blindCategories": {
+        "action_description": 14.3,
+        "object_existence": 37.8,
+        "object_attribute": 38.2,
+        "pa_action_description": 24.1,
+        "instrument_action_interaction": 22.6,
+        "local_action_reasoning": 59.5,
+        "safety": 32.3,
+        "forecast_cot": 9.7,
+        "temporal_ordering": 41.2,
+        "sequence_summarization": 9.8
+      },
+      "group": "commercial",
+      "ciHalfWidth": 5.5,
+      "categoryGains": {
+        "action_description": 40.0,
+        "object_existence": 10.8,
+        "object_attribute": 2.9,
+        "pa_action_description": 44.8,
+        "instrument_action_interaction": 32.3,
+        "local_action_reasoning": -2.7,
+        "safety": 29.0,
+        "forecast_cot": 9.7,
+        "temporal_ordering": 23.5,
+        "sequence_summarization": -9.8
+      }
+    },
+    {
+      "name": "GPT-5.1 (high)",
+      "video": 46.8,
+      "blind": 25.8,
+      "ci": [
+        41.1,
+        52.5
+      ],
+      "gain": 21.1,
+      "categories": {
+        "action_description": 57.1,
+        "object_existence": 54.0,
+        "object_attribute": 38.2,
+        "pa_action_description": 37.9,
+        "instrument_action_interaction": 61.3,
+        "local_action_reasoning": 46.0,
+        "safety": 45.2,
+        "forecast_cot": 25.8,
+        "temporal_ordering": 52.9,
+        "sequence_summarization": 29.3
+      },
+      "blindCategories": {
+        "action_description": 17.1,
+        "object_existence": 35.1,
+        "object_attribute": 38.2,
+        "pa_action_description": 20.7,
+        "instrument_action_interaction": 32.3,
+        "local_action_reasoning": 18.9,
+        "safety": 22.6,
+        "forecast_cot": 16.1,
+        "temporal_ordering": 29.4,
+        "sequence_summarization": 12.2
+      },
+      "group": "commercial",
+      "ciHalfWidth": 5.7,
+      "categoryGains": {
+        "action_description": 40.0,
+        "object_existence": 18.9,
+        "object_attribute": 0.0,
+        "pa_action_description": 17.2,
+        "instrument_action_interaction": 29.0,
+        "local_action_reasoning": 27.0,
+        "safety": 22.6,
+        "forecast_cot": 9.7,
+        "temporal_ordering": 23.5,
+        "sequence_summarization": 17.1
+      }
+    },
+    {
+      "name": "Gemma 4",
+      "video": 35.8,
+      "blind": 21.4,
+      "ci": [
+        30.5,
+        41.1
+      ],
+      "gain": 14.4,
+      "categories": {
+        "action_description": 48.6,
+        "object_existence": 27.0,
+        "object_attribute": 32.4,
+        "pa_action_description": 51.7,
+        "instrument_action_interaction": 41.9,
+        "local_action_reasoning": 29.7,
+        "safety": 35.5,
+        "forecast_cot": 16.1,
+        "temporal_ordering": 41.2,
+        "sequence_summarization": 4.9
+      },
+      "blindCategories": {
+        "action_description": 11.4,
+        "object_existence": 21.6,
+        "object_attribute": 29.4,
+        "pa_action_description": 34.5,
+        "instrument_action_interaction": 25.8,
+        "local_action_reasoning": 21.6,
+        "safety": 16.1,
+        "forecast_cot": 9.7,
+        "temporal_ordering": 23.5,
+        "sequence_summarization": 4.9
+      },
+      "group": "general",
+      "ciHalfWidth": 5.3,
+      "categoryGains": {
+        "action_description": 37.1,
+        "object_existence": 5.4,
+        "object_attribute": 2.9,
+        "pa_action_description": 17.2,
+        "instrument_action_interaction": 16.1,
+        "local_action_reasoning": 8.1,
+        "safety": 19.4,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 17.6,
+        "sequence_summarization": 0.0
+      }
+    },
+    {
+      "name": "Qwen3-VL-32B-Thinking",
+      "video": 34.1,
+      "blind": 27.8,
+      "ci": [
+        28.8,
+        39.4
+      ],
+      "gain": 6.3,
+      "categories": {
+        "action_description": 40.0,
+        "object_existence": 27.0,
+        "object_attribute": 41.2,
+        "pa_action_description": 62.1,
+        "instrument_action_interaction": 45.2,
+        "local_action_reasoning": 27.0,
+        "safety": 19.4,
+        "forecast_cot": 12.9,
+        "temporal_ordering": 35.3,
+        "sequence_summarization": 9.8
+      },
+      "blindCategories": {
+        "action_description": 28.6,
+        "object_existence": 35.1,
+        "object_attribute": 38.2,
+        "pa_action_description": 13.8,
+        "instrument_action_interaction": 45.2,
+        "local_action_reasoning": 27.0,
+        "safety": 25.8,
+        "forecast_cot": 16.1,
+        "temporal_ordering": 17.6,
+        "sequence_summarization": 7.3
+      },
+      "group": "general",
+      "ciHalfWidth": 5.3,
+      "categoryGains": {
+        "action_description": 11.4,
+        "object_existence": -8.1,
+        "object_attribute": 2.9,
+        "pa_action_description": 48.3,
+        "instrument_action_interaction": 0.0,
+        "local_action_reasoning": 0.0,
+        "safety": -6.5,
+        "forecast_cot": -3.2,
+        "temporal_ordering": 17.6,
+        "sequence_summarization": 2.4
+      }
+    },
+    {
+      "name": "Qwen3-VL-8B-Instruct",
+      "video": 23.1,
+      "blind": 13.4,
+      "ci": [
+        18.4,
+        27.8
+      ],
+      "gain": 9.7,
+      "categories": {
+        "action_description": 28.6,
+        "object_existence": 16.2,
+        "object_attribute": 17.6,
+        "pa_action_description": 34.5,
+        "instrument_action_interaction": 38.7,
+        "local_action_reasoning": 18.9,
+        "safety": 16.1,
+        "forecast_cot": 12.9,
+        "temporal_ordering": 26.5,
+        "sequence_summarization": 0.0
+      },
+      "blindCategories": {
+        "action_description": 8.6,
+        "object_existence": 5.4,
+        "object_attribute": 11.8,
+        "pa_action_description": 24.1,
+        "instrument_action_interaction": 29.0,
+        "local_action_reasoning": 13.5,
+        "safety": 19.4,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 5.9,
+        "sequence_summarization": 0.0
+      },
+      "group": "general",
+      "ciHalfWidth": 4.7,
+      "categoryGains": {
+        "action_description": 20.0,
+        "object_existence": 10.8,
+        "object_attribute": 5.9,
+        "pa_action_description": 10.3,
+        "instrument_action_interaction": 9.7,
+        "local_action_reasoning": 5.4,
+        "safety": -3.2,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 20.6,
+        "sequence_summarization": 0.0
+      }
+    },
+    {
+      "name": "Molmo2",
+      "video": 15.0,
+      "blind": 17.1,
+      "ci": [
+        11.0,
+        19.0
+      ],
+      "gain": -2.0,
+      "categories": {
+        "action_description": 31.4,
+        "object_existence": 10.8,
+        "object_attribute": 20.6,
+        "pa_action_description": 24.1,
+        "instrument_action_interaction": 16.1,
+        "local_action_reasoning": 8.1,
+        "safety": 12.9,
+        "forecast_cot": 3.2,
+        "temporal_ordering": 8.8,
+        "sequence_summarization": 0.0
+      },
+      "blindCategories": {
+        "action_description": 17.1,
+        "object_existence": 8.1,
+        "object_attribute": 29.4,
+        "pa_action_description": 24.1,
+        "instrument_action_interaction": 25.8,
+        "local_action_reasoning": 5.4,
+        "safety": 16.1,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 23.5,
+        "sequence_summarization": 0.0
+      },
+      "group": "general",
+      "ciHalfWidth": 4.0,
+      "categoryGains": {
+        "action_description": 14.3,
+        "object_existence": 2.7,
+        "object_attribute": -8.8,
+        "pa_action_description": 0.0,
+        "instrument_action_interaction": -9.7,
+        "local_action_reasoning": 2.7,
+        "safety": -3.2,
+        "forecast_cot": -3.2,
+        "temporal_ordering": -14.7,
+        "sequence_summarization": 0.0
+      }
+    },
+    {
+      "name": "MedGRPO",
+      "video": 16.7,
+      "blind": 9.7,
+      "ci": [
+        12.5,
+        20.9
+      ],
+      "gain": 7.0,
+      "categories": {
+        "action_description": 25.7,
+        "object_existence": 16.2,
+        "object_attribute": 17.6,
+        "pa_action_description": 10.3,
+        "instrument_action_interaction": 25.8,
+        "local_action_reasoning": 13.5,
+        "safety": 12.9,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 20.6,
+        "sequence_summarization": 0.0
+      },
+      "blindCategories": {
+        "action_description": 2.9,
+        "object_existence": 21.6,
+        "object_attribute": 2.9,
+        "pa_action_description": 6.9,
+        "instrument_action_interaction": 12.9,
+        "local_action_reasoning": 5.4,
+        "safety": 3.2,
+        "forecast_cot": 3.2,
+        "temporal_ordering": 26.5,
+        "sequence_summarization": 0.0
+      },
+      "group": "medical",
+      "ciHalfWidth": 4.2,
+      "categoryGains": {
+        "action_description": 22.8,
+        "object_existence": -5.4,
+        "object_attribute": 14.7,
+        "pa_action_description": 3.4,
+        "instrument_action_interaction": 12.9,
+        "local_action_reasoning": 8.1,
+        "safety": 9.7,
+        "forecast_cot": 3.2,
+        "temporal_ordering": -5.9,
+        "sequence_summarization": 0.0
+      }
+    },
+    {
+      "name": "MedGemma 1.5",
+      "video": 10.7,
+      "blind": 11.0,
+      "ci": [
+        7.2,
+        14.2
+      ],
+      "gain": -0.3,
+      "categories": {
+        "action_description": 11.4,
+        "object_existence": 10.8,
+        "object_attribute": 8.8,
+        "pa_action_description": 24.1,
+        "instrument_action_interaction": 6.5,
+        "local_action_reasoning": 10.8,
+        "safety": 6.5,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 11.8,
+        "sequence_summarization": 0.0
+      },
+      "blindCategories": {
+        "action_description": 14.3,
+        "object_existence": 8.1,
+        "object_attribute": 8.8,
+        "pa_action_description": 0.0,
+        "instrument_action_interaction": 6.5,
+        "local_action_reasoning": 18.9,
+        "safety": 6.5,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 26.5,
+        "sequence_summarization": 0.0
+      },
+      "group": "medical",
+      "ciHalfWidth": 3.5,
+      "categoryGains": {
+        "action_description": -2.9,
+        "object_existence": 2.7,
+        "object_attribute": 0.0,
+        "pa_action_description": 24.1,
+        "instrument_action_interaction": 0.0,
+        "local_action_reasoning": -8.1,
+        "safety": 0.0,
+        "forecast_cot": 0.0,
+        "temporal_ordering": -14.7,
+        "sequence_summarization": 0.0
+      }
+    },
+    {
+      "name": "SUREON-VLM (SUREON-only)",
+      "video": 44.1,
+      "blind": 22.1,
+      "ci": [
+        38.4,
+        49.8
+      ],
+      "gain": 22.1,
+      "categories": {
+        "action_description": 51.4,
+        "object_existence": 48.6,
+        "object_attribute": 44.1,
+        "pa_action_description": 41.4,
+        "instrument_action_interaction": 25.8,
+        "local_action_reasoning": 40.5,
+        "safety": 61.3,
+        "forecast_cot": 38.7,
+        "temporal_ordering": 44.1,
+        "sequence_summarization": 7.3
+      },
+      "blindCategories": {
+        "action_description": 31.4,
+        "object_existence": 16.2,
+        "object_attribute": 23.5,
+        "pa_action_description": 6.9,
+        "instrument_action_interaction": 19.4,
+        "local_action_reasoning": 16.2,
+        "safety": 35.5,
+        "forecast_cot": 32.3,
+        "temporal_ordering": 17.6,
+        "sequence_summarization": 2.4
+      },
+      "group": "ablation",
+      "ciHalfWidth": 5.7,
+      "categoryGains": {
+        "action_description": 20.0,
+        "object_existence": 32.4,
+        "object_attribute": 20.6,
+        "pa_action_description": 34.5,
+        "instrument_action_interaction": 6.5,
+        "local_action_reasoning": 24.3,
+        "safety": 25.8,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 26.5,
+        "sequence_summarization": 4.9
+      }
+    },
+    {
+      "name": "SUREON-VLM (Public-only)",
+      "video": 20.7,
+      "blind": 12.0,
+      "ci": [
+        16.2,
+        25.2
+      ],
+      "gain": 8.7,
+      "categories": {
+        "action_description": 42.9,
+        "object_existence": 16.2,
+        "object_attribute": 14.7,
+        "pa_action_description": 34.5,
+        "instrument_action_interaction": 29.0,
+        "local_action_reasoning": 10.8,
+        "safety": 19.4,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 14.7,
+        "sequence_summarization": 2.4
+      },
+      "blindCategories": {
+        "action_description": 8.6,
+        "object_existence": 8.1,
+        "object_attribute": 8.8,
+        "pa_action_description": 20.7,
+        "instrument_action_interaction": 22.6,
+        "local_action_reasoning": 8.1,
+        "safety": 19.4,
+        "forecast_cot": 6.5,
+        "temporal_ordering": 8.8,
+        "sequence_summarization": 2.4
+      },
+      "group": "ablation",
+      "ciHalfWidth": 4.5,
+      "categoryGains": {
+        "action_description": 34.3,
+        "object_existence": 8.1,
+        "object_attribute": 5.9,
+        "pa_action_description": 13.8,
+        "instrument_action_interaction": 6.5,
+        "local_action_reasoning": 2.7,
+        "safety": 0.0,
+        "forecast_cot": 0.0,
+        "temporal_ordering": 5.9,
+        "sequence_summarization": 0.0
+      }
+    }
+  ],
+  "perception": {
+    "cvs": {
+      "label": "Endoscapes-CVS",
+      "metric": "Average criterion accuracy (%)",
+      "protocol": "Frame-level inference \u00b7 Table 5(c)",
+      "rows": [
+        [
+          "SUREON-VLM",
+          78.5
+        ],
+        [
+          "SurgAtlas-VLM",
+          77.7
+        ],
+        [
+          "SurgVLM-72B",
+          76.7
+        ],
+        [
+          "SurgVLM-7B",
+          76.9
+        ],
+        [
+          "GPT-4o",
+          74.5
+        ],
+        [
+          "Qwen2.5-VL-7B",
+          65.9
+        ]
+      ]
+    },
+    "cholec": {
+      "label": "Cholec80",
+      "metric": "Phase recognition macro-F1 (%)",
+      "protocol": "Frame-level unless marked clip \u00b7 Table 5(a)",
+      "rows": [
+        [
+          "SUREON-VLM (clip)",
+          78.85
+        ],
+        [
+          "SurgAtlas-VLM",
+          68.2
+        ],
+        [
+          "SUREON-VLM",
+          55.33
+        ],
+        [
+          "Gemini 3.1 Pro",
+          47
+        ],
+        [
+          "GPT-5.1",
+          36
+        ],
+        [
+          "Qwen3-VL-8B",
+          17
+        ]
+      ]
+    },
+    "heiphase": {
+      "label": "HeiChole \u00b7 phase",
+      "metric": "Phase recognition macro-F1 (%)",
+      "protocol": "Frame-level unless marked clip \u00b7 Table 5(a)",
+      "rows": [
+        [
+          "SUREON-VLM (clip)",
+          71.4
+        ],
+        [
+          "SurgAtlas-VLM",
+          54.5
+        ],
+        [
+          "SUREON-VLM",
+          47.1
+        ],
+        [
+          "Gemini 3.1 Pro",
+          35
+        ],
+        [
+          "GPT-5.1",
+          29
+        ],
+        [
+          "Qwen3-VL-8B",
+          12
+        ]
+      ]
+    }
+  },
+  "ablation": [
+    {
+      "stage": "Raw synthesis",
+      "samples": 176600,
+      "video": 22.4,
+      "blind": 13.7,
+      "gain": 8.7
+    },
+    {
+      "stage": "Refined distractors",
+      "samples": 176600,
+      "video": 39.5,
+      "blind": 22.7,
+      "gain": 16.8
+    },
+    {
+      "stage": "Blind-test curation",
+      "samples": 76061,
+      "video": 48.2,
+      "blind": 19.1,
+      "gain": 29.1
+    }
+  ],
+  "problem": {
+    "id": "74f3d9719938e377a566e3d61fc71902_46.470_51.070",
+    "category": "instrument_action_interaction",
+    "title": "Instrument\u2013action interaction",
+    "question": "What action is performed by the suction irrigator in this clip?",
+    "answer": "Bluntly dissect tissue planes",
+    "options": [
+      "Aspirate blood from the operative field",
+      "Suction blood to clear the field",
+      "Perform suction to minimize contamination",
+      "Dissect the mesoappendix",
+      "Dissecting the mesoappendix",
+      "Bluntly dissect tissue planes",
+      "Maintain a clear field by suction"
+    ],
+    "events": [],
+    "duration": 4.6,
+    "procedure": "Appendectomy",
+    "specialty": "General Surgery",
+    "video": "page/media/gallery-instrument_action_interaction-1.mp4",
+    "poster": "page/media/gallery-instrument_action_interaction-1.jpg",
+    "sourceUrl": "https://www.youtube.com/watch?v=_Lm_EUPxuGI",
+    "referenceNote": "Reference from the surgeon-verified benchmark.",
+    "prediction": "Suction blood to clear the field",
+    "explanation": "The instrument\u2019s usual function suggests suction. Here, the reference action is blunt tissue dissection: identifying the tool is not enough to identify what it is doing.",
+    "predictionSource": "Supplied failure_gallery_instrument_action_interaction.png; model identity is not specified in this figure."
+  },
+  "provenance": {
+    "paper": "page/assets/paper.pdf",
+    "sha256": "08ff50f67a3215c885cb23620339cf5b59c16f65fbc88a5baa7a5b080d16de54",
+    "results": "Table 3, PDF p.7; construction ablation: Table 4, PDF p.8; public benchmarks: Table 5, PDF p.8",
+    "confidenceIntervals": "ciHalfWidth transcribes Table 3 reported 95% CI margins. ci is derived as video \u00b1 ciHalfWidth for plotting, not exact bootstrap endpoints.",
+    "categoryDistributions": "Retained released-data counts from the previous full paper and benchmark; the updated 12-page PDF omits the supplementary distribution tables. Totals agree with current Table 2."
+  }
+}

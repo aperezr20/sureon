@@ -1,0 +1,19 @@
+data/
+videos/
+models/
+results/
+.cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*cookies*.txt
+config.local.yaml
+
+.venv*/
+
+# Publish the website data while keeping local datasets ignored.
+!/page/data/
+/page/data/*
+!/page/data/research.json

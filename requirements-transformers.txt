@@ -1,0 +1,4 @@
+# Direct inference: install after PyTorch for your CUDA platform.
+-r requirements.txt
+transformers==4.57.6
+accelerate>=1.12,<2

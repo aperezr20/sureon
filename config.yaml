@@ -1,0 +1,31 @@
+# Paths are relative to this file.
+dataset:
+  repo_id: aleperez24/sureon
+  parquet_dir: data
+
+videos:
+  base_dir: ./videos
+  cookies_file: my_cookies.txt  # Path to YouTube cookies.txt.
+
+curation:
+  model_dir: ./nonsurgical_object_detection
+  preblurred_dir: .cache/preblurred
+  ocr_gpu: true
+
+# inference:
+#   backend: transformers
+#   model: Qwen/Qwen3-VL-8B-Instruct
+#   batch_size: 16
+
+# To use vLLM inference instead
+inference: 
+  backend: openai
+  model: Qwen/Qwen3-VL-8B-Instruct
+  base_url: http://localhost:8000/v1
+
+evaluation:
+  output_dir: results
+
+judge:
+  enabled: true
+  model: claude-opus-4-8
