@@ -17,7 +17,7 @@ Alejandra Perez<sup>1,&#42;</sup>, Anita Rau<sup>1,&#42;</sup>, Busisiwe Mlambo<
 <sup>6</sup>University Digestive Health Care Center – Clarunis, Switzerland &ensp;·&ensp; <sup>7</sup>University of Basel, Switzerland
 </sub>
 
-[![Paper](https://img.shields.io/badge/arXiv-2603.06570-b31b1b)](https://arxiv.org/html/2603.06570v1)
+[![Paper](https://img.shields.io/badge/arXiv-2603.06570-b31b1b)](https://arxiv.org/html/2603.06570)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-SUREON-yellow)](https://huggingface.co/datasets/aleperez24/sureon)
 [![Website](https://img.shields.io/badge/Project-Website-blue)](https://aperezr20.github.io/sureon/)
 
